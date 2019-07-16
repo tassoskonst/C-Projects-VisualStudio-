@@ -1,0 +1,5 @@
+1.S= "var" space letter type ; .
+2.space= ("\t"|" ").
+3.letter=(","letter|character|":").
+4.character=(character|","letter|":").
+5.type=("integer"|"real"|"boolean"|"char").
